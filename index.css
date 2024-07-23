@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.bodyPrincipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    flex-direction: column;
+}
+.blocoInputEBtn{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #062E72;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.blocoInputEBtn h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.blocoInputEBtn p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.blocoInputEBtn input{
+    width: 40%;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+.blocoInputEBtn button{
+    width: 40%;
+    height: 2.5rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #0096FA;
+    color: white;
+    font-size: 1.2rem;
+}
+.footer{
+    width: 100%;
+    height: 4rem;
+    color: white;
+    background-color: #062E72;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer p{
+    font-size: 1rem;
+}
+
+@media (max-width: 750px) {
+    .bodyPrincipal{
+        padding: 0rem 2rem;
+    }
+    .blocoInputEBtn{
+        width: 90%;
+    }
+    .blocoInputEBtn input{
+        width: 90%;
+    }
+    .blocoInputEBtn button{
+        width: 90%;
+    }
+}
