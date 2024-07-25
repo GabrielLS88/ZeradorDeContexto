@@ -7,12 +7,12 @@
 
 .bodyPrincipal{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #212121;
-    flex-direction: column;
+    margin-top: 15%;
 }
 .blocoInputEBtn{
     width: 60%;
@@ -60,25 +60,11 @@ input[type="number"]::-webkit-inner-spin-button{
     color: white;
     font-size: 1.2rem;
 }
-/* .footer{
-    width: 100%;
-    height: 4rem;
-    color: white;
-    background-color: #062E72;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.footer p{
-    font-size: 1rem;
-} */
 
 @media (max-width: 750px) {
     .bodyPrincipal{
         padding: 0rem 2rem;
+        margin-top: 50%;
     }
     .blocoInputEBtn{
         width: 90%;
