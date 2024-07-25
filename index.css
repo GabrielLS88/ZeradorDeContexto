@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #062E72;
+    border: 5px solid #0096FA;
     color: white;
     padding: 2rem;
     border-radius: 1rem;

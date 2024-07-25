@@ -62,7 +62,7 @@ async function main() {
   try {
     const identity = document.getElementById("inputNumber").value;
     if (identity === '') {
-      alert("O campo de identidade está vazio");
+      alert("O campo do número está vazio");
       return;
     }
 
@@ -83,3 +83,9 @@ async function main() {
     console.error('Erro:', error);
   }
 }
+
+document.addEventListener('keydown', function(e){
+  if(e.key == "Enter"){
+    main()
+  }
+})
