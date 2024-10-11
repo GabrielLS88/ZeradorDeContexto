@@ -4,10 +4,10 @@ async function fazerRequisicaoInicial(identity) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': "Key dGVsZWtyb3V0ZXI6alBxTDBocjNOc3kwZVdwYVFINVU="
+        'Authorization': "Key cm90ZWFkb3J0ZWxlazE6aVVERjR6cWlkWVZsclVFVW9WVDM="
       },
       body: JSON.stringify({
-        id: '{{$guid}}',
+        id: '4e3504b7-4806-434c-bf0c-e10635e8cba4',
         to: 'postmaster@builder.msging.net',
         method: 'get',
         uri: `/contexts/${identity}@wa.gw.msging.net`
@@ -35,10 +35,10 @@ async function deletarVariaveis(identity, items) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': "Key dGVsZWtyb3V0ZXI6alBxTDBocjNOc3kwZVdwYVFINVU="
+          'Authorization': "Key cm90ZWFkb3J0ZWxlazE6aVVERjR6cWlkWVZsclVFVW9WVDM="
         },
         body: JSON.stringify({
-          id: '{{$guid}}',
+          id: '4e3504b7-4806-434c-bf0c-e10635e8cba4',
           to: 'postmaster@builder.msging.net',
           method: 'delete',
           uri: `/contexts/${identity}@wa.gw.msging.net/${variable}`
